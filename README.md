@@ -1,5 +1,7 @@
 [![Python application test with Github Actions](https://github.com/yrangana/spcalcAPI/actions/workflows/main.yml/badge.svg)](https://github.com/yrangana/spcalcAPI/actions/workflows/main.yml)
 
+[![Docker Image CI](https://github.com/yrangana/spcalcAPI/actions/workflows/docker-image.yml/badge.svg)](https://github.com/yrangana/spcalcAPI/actions/workflows/docker-image.yml)
+
 # spcalcAPI
 Simple FAst API to Strategy Pattern Calculator (spcalc)
 

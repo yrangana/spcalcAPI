@@ -22,7 +22,7 @@ python app.py
 
 ## RESTful API Endpoint
 
-1. Add two numbers
+### Calculate
 ```bash
 curl -X 'POST' \
   'http://localhost:8000/calculate' \

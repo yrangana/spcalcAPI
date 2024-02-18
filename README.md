@@ -1,2 +1,2 @@
 # spcalcAPI
-Simple Flask API to Strategy Pattern Calculator (spcalc)
+Simple FAst API to Strategy Pattern Calculator (spcalc)

@@ -5,6 +5,28 @@ Simple FAst API to Strategy Pattern Calculator (spcalc)
 
 ## Instructions to install and run the application
 
+There are two ways to run the API.
+
+### Using Docker
+
+1. Clone the repository
+```bash
+git clone https://github.com/yrangana/spcalcAPI.git
+```
+
+2. Build the docker image
+```bash
+docker build -t spcalcapi .
+```
+
+3. Run the docker container
+```bash
+docker run -d -p 8000:8000 spcalcapi
+```
+
+### Using Python
+
+
 1. Clone the repository
 ```bash
 git clone https://github.com/yrangana/spcalcAPI.git

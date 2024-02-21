@@ -6,7 +6,9 @@ COPY . /app/
 
 WORKDIR /app
 
-RUN apt update && apt install -y make
+RUN apt-get update && apt-get install -y make==4.3 --no-install-recommends \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
 RUN make install
 

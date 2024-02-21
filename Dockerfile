@@ -5,8 +5,8 @@ RUN mkdir /app
 COPY . /app/
 
 WORKDIR /app
-
-RUN apt-get update && apt-get install -y make==4.3 --no-install-recommends \
+# hadolint ignore=DL3008
+RUN apt-get update && apt-get install -y make --no-install-recommends \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
